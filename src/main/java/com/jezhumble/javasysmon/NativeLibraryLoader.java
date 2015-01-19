@@ -9,7 +9,7 @@ class NativeLibraryLoader {
 
     public void loadLibrary(String libraryName) {
         try {
-            InputStream is = this.getClass().getResourceAsStream("/" + libraryName);
+            InputStream is = this.getClass().getResourceAsStream("/com/jezhumble/javasysmon/".concat(libraryName));
             File tempNativeLib = getTempFile(libraryName);
             FileOutputStream os = new FileOutputStream(tempNativeLib);
             copyAndClose(is, os);
