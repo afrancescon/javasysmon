@@ -9,6 +9,12 @@
 	<name>JavaSysMon</name>
 	<description>Manage OS processes and get cpu and memory stats cross-platform in Java</description>
 
+	<!-- ############# SCM section ############# -->
+	<scm>
+		<developerConnection>scm:git:https://github.com/afrancescon/javasysmon.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<!-- ############# Dependencies section ############# -->
 	<dependencies>
 		<dependency>
